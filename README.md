@@ -215,5 +215,15 @@ tab
 #How did the model do?
 #What is the accuracy rate?
 
-print("The accuracy of the model is: 97.33%")
+
+library(caret)
+
+confusionMatrix(iris$Species, pred)
+
+#Accuracy : 0.9733          
+#95% CI : (0.9331, 0.9927)
+#No Information Rate : 0.3333          
+#P-Value [Acc > NIR] : < 2.2e-16       
+
+#Kappa : 0.96  
 
