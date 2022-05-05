@@ -145,7 +145,7 @@ table(result$cluster,iris.class)
 #TASK: Accuracy = number of correctly classified/(total classified) = ?
 #i.e our model has achieved ?% accuracy!
 
-print("The accuracy of the model is: 88.67%")
+Accuracy= 133/(133+17) = 0.88 Kmeans
 
 
 -------------------SVM Model----------------------
