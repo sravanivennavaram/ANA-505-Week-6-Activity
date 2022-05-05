@@ -78,7 +78,9 @@ CrossTable(testData$Species == predict(dtModel, testData))
 #How did the model do? 
 #TASK: What percent of cases were correctly classified?
 
-print("The percent of cases were correctly classified is: 88.89%")
+#Total accuracy 42/45*100 = 93.33%
+
+#93.3% of our data was predicted accuartely
 
 
 -------------------K Means Model----------------------
